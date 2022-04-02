@@ -1,38 +1,5 @@
-/*
-* littlelink V1
-* https://littlelink.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/21/2019
-*
-* Built using:
-*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
 
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Code
-- Spacing
-- Utilities
-*
-* You'll find the button css in css/brands.css.
-*
-*/
-
-
-/* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
   position: relative;
   width: 100%;
@@ -68,11 +35,7 @@
 }
 
 
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
+
 html {
   font-size: 100%; }
 body {
@@ -80,16 +43,15 @@ body {
   line-height: 24px;
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #30333c; }
 
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
   margin-top: 0;
-  margin-bottom: 16px;
-  font-weight: 800; }
-h1 { font-size:14px; line-height: 24px; letter-spacing: 0;}
+  margin-bottom: 3px;
+  font-weight: 400; }
 
 
 /* Larger than phablet */

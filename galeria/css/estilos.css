@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #565e61;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 70px;
+    color:#fff;
+    text-align: center;
+}
+.contenedor{
+  width:100%;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.persona__columna{
+    margin: 5px;
+}
+.personas .contenedor{
+    display: grid;
+    }
+@media(min-width:520px){
+    .personas .contenedor{
+  grid-template-columns: repeat(2,50%);
+    }
+}
+@media(min-width:728px){
+   .personas .contenedor{
+  grid-template-columns: repeat(3,33.3%);
+    }
+}
+@media(min-width:1024px){
+   .personas .contenedor{
+
+  grid-template-columns: repeat(4,25%);
+    }
+    .contenedor{
+         width: 1024px;
+    }
+}
+@media(min-width:1200px){
+    .contenedor{
+         width: 1200px;
+    }
+}
