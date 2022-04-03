@@ -1,0 +1,108 @@
+/**   -- Body -- Remove default margin, background   */
+
+body {
+ margin: 0;
+ background-color: #e7ecef;
+}
+
+/**  --  Parte superior  --  **/
+/** Avatar **/
+.avatar {
+width: 180px;
+height: 180px;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+background-size: 180px;
+background-image: url("../images/avatar.png")
+}
+
+/**  --- Bienvenida -- **/
+[hidden],
+template {
+  display: none;
+}
+.nombre {
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-size: 35px;
+}
+.bienvenida {
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* Forma de los botones
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 30px;
+  cursor: pointer;
+ }
+
+/* Estilo Botones (Color fondo)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.button.button-default {
+  color: #FFFFFF;
+  background-color: #0085FF }
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%) }
+
+
+  /* Instagram */
+  #button-instagram {
+    color: #FFFFFF;
+    background-color: #304246 }
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
+
+  /* Unsplash */
+  #button-unplash {
+    color: #FFFFFF;
+    background-color: #647974}
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
+  /* 500px */
+  #button-500px {
+    color: #FFFFFF;
+    background-color: #cca4a5 }
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
+  /* Galeria */
+  #button-galeria {
+    color: #FFFFFF;
+    background-color: #5f7078 }
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
+/* Email */
+.button.button {
+  color: #FFFFFF;
+  background-color: #a45350 }
+.button.button:hover,
+.button.button:focus {
+  filter: brightness(40%)
+}
+/** --  Final -- **/
