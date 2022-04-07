@@ -10,13 +10,12 @@ body {
 .avatar {
 border-radius: 30px 30px 30px 30px;
 width: 110px;
-height: 150px;
+height: 160px;
 position: relative;
 margin-left: auto;
 margin-right: auto;
-background-size: 140px;
-background: center;
-background-image: url("https://images.unsplash.com/profile-1638715155470-a27b0d1c515bimage?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff");
+background-size: 115px;
+background-image: url("../images/avatar5.jpg");
 }
 
 /**  --- Bienvenida -- **/
@@ -29,6 +28,15 @@ template {
   font-style: normal;
   font-size: 35px;
 }
+
+.nombre2{
+  font-style: bold;
+  font-weight: bolder;
+  font-size: 15px;
+  margin: auto;
+  padding: auto;
+}
+
 .bienvenida {
   font-family: 'Libre Baskerville', serif;
   font-style: normal;
@@ -75,7 +83,7 @@ button {
   /* Instagram */
   #button-instagram {
     color: #FFFFFF;
-    background-color: #304246 }
+    background-color: #1b1b1b }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -84,7 +92,7 @@ button {
   /* Unsplash */
   #button-unplash {
     color: #FFFFFF;
-    background-color: #647974}
+    background-color: #5a5b33}
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -92,7 +100,7 @@ button {
   /* 500px */
   #button-500px {
     color: #FFFFFF;
-    background-color: #cca4a5 }
+    background-color: #4a7079 }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -100,7 +108,7 @@ button {
   /* Galeria */
   #button-galeria {
     color: #FFFFFF;
-    background-color: #5f7078 }
+    background-color: #93b0b6 }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
