@@ -45,30 +45,33 @@ template {
 
 /* Forma de los botones
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .button,
 button {
+  float: center;
+  margin: 5px;
   display: inline-block;
   text-decoration: none;
-  height: 48px;
+  height: 65px;
+  width: 65px;
   text-align: center;
   vertical-align: middle;
   font-size: 18px;
-  width: 300px;
-  font-weight: 700;
+  font-weight: 70;
   line-height: 48px;
   letter-spacing: 0.1px;
   white-space: wrap;
-  border-radius: 30px;
+  border-radius: 39px 39px 39px 39px;
   cursor: pointer;
  }
 
 /* Estilo Botones (Color fondo)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
-  padding: 0px 8px 3.5px 0px;
+  padding: 15px 13px 13px 13px;
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  width: 31px;
+  height: 31px;
   fill: #0085FF;
 }
 
@@ -129,4 +132,37 @@ button {
 .button.button:focus {
   filter: brightness(40%)
 }
+
+/** --  Estilo del texto al pasar el cursor -- **/
+
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: Raleway;
+    position: absolute;
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+
+}
+[data-title] {
+    position: relative;
+}
+
+
 /** --  Final -- **/
