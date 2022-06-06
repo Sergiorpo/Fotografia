@@ -1,0 +1,144 @@
+
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column {
+  position: center;
+  width: 100%;
+  float: center;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 0; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
+
+}
+
+
+
+html {
+  font-size: 100%; }
+body {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #30333c; }
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h2 {
+  padding: auto;
+  margin: 1px;
+  font-weight: 300;
+  font-family: 'Libre Baskerville', serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+  h2::first-letter{
+  color:#59744e; /* NOTE: primera letra */
+ }
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h2 { font-size: 23px; line-height: 86px;}
+}
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #3f678b;
+  text-decoration: none;
+}
+a:hover {
+  color: #0085FF; }
+
+
+.seccion{
+  text-align: left;
+}
+.contenedor {
+text-align: left;
+margin: auto;
+text-decoration: none;
+font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre; }
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+button,
+.button {
+  margin-bottom: 1rem; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 1.5rem; }
+pre,
+blockquote,
+dl,
+figure,
+p,
+ol {
+  margin-bottom: 2.5rem; }
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid #E1E1E1; }
