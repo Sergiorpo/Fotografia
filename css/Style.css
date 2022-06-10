@@ -124,6 +124,23 @@ button {
   .button.button:focus {
   filter: brightness(40%) }
 
+
+  /* link */
+  #button-link {
+    color: #FFFFFF;
+    background-color: #5c7a62 }
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
+  /* Correo */
+  #button-email {
+    color: #FFFFFF;
+    background-color: #6aafcc }
+  .button.unplash:hover,
+  .button.button:focus {
+  filter: brightness(40%) }
+
 /* Email */
 .button.button {
   color: #FFFFFF;
