@@ -51,8 +51,8 @@ body {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 2%;
 }
 
@@ -77,7 +77,7 @@ h2 {
   letter-spacing: 1px;
   }
   h2::first-letter{
-  color:#59744e; /* NOTE: primera letra */
+  color:#105783; /* NOTE: primera letra */
  }
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -120,4 +120,4 @@ a:hover {
   a {
     color: #0085FF; }
   a:hover {
-    color: #0085FF; }
+    color: #649899; }
