@@ -18,6 +18,9 @@ background-size: 115px;
 background-image: url("../images/avatar5.jpg");
 }
 
+.avatar:hover{
+  background-image: url("../images/avatar5Color.jpg");
+}
 /**  --- Bienvenida -- **/
 [hidden],
 template {
