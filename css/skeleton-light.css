@@ -15,10 +15,21 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (max-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
+    .nombre2{
+      margin-top: 3%;
+      font-style: bold;
+      font-weight: bolder;
+      font-size: 21px;
+      margin: auto;
+      padding: auto;
+      font-family: 'Sacramento', cursive;
+      letter-spacing: 1px;
+    }
+
 }
 
 /* For devices larger than 550px */

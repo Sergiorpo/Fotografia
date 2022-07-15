@@ -33,11 +33,14 @@ template {
 }
 
 .nombre2{
+  margin-top: 3%;
   font-style: bold;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 21px;
   margin: auto;
   padding: auto;
+  font-family: 'Sacramento', cursive;
+  letter-spacing: 1px;
 }
 
 .bienvenida {
@@ -89,7 +92,7 @@ button {
   /* Instagram */
   #button-instagram {
     color: #FFFFFF;
-    background-color: #1b1b1b }
+    background-color: #061405 }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -106,7 +109,7 @@ button {
   /* 500px */
   #button-500px {
     color: #FFFFFF;
-    background-color: #4a7079 }
+    background-color: #768a8b}
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -114,7 +117,7 @@ button {
   /* Galeria */
   #button-galeria {
     color: #FFFFFF;
-    background-color: #93b0b6 }
+    background-color: #abc9d3 }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -122,7 +125,7 @@ button {
   /* Correo */
   #button-mail {
     color: #FFFFFF;
-    background-color: #607199 }
+    background-color: #6a716f }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -131,7 +134,7 @@ button {
   /* link */
   #button-link {
     color: #FFFFFF;
-    background-color: #5c7a62 }
+    background-color: #535154 }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
@@ -139,7 +142,7 @@ button {
   /* Correo */
   #button-email {
     color: #FFFFFF;
-    background-color: #6aafcc }
+    background-color: #eab75c }
   .button.unplash:hover,
   .button.button:focus {
   filter: brightness(40%) }
