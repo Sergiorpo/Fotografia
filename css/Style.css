@@ -1,228 +1,115 @@
-/**   -- Body -- Remove default margin, background   */
+html{
 
-body {
- margin: 0;
- background-color: #e7ecef;
 }
 
-/**  --  Parte superior  --  **/
-/** Avatar **/
+body{
+  background-color:#e7ecef;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 3%;
+}
+
+
+#text01{
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-size: 35px;
+}
+
+#text02{
+  margin-top: 3%;
+  font-style: bold;
+  font-weight: bolder;
+  font-size: 21px;
+  font-family: 'Sacramento', cursive;
+  letter-spacing: 1px;
+}
+
+#text03{
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.titulo{
+  margin: auto;
+  padding-top: 3%;
+  width: 500px;
+}
+
+.titulo h1 p {
+  text-align: center;
+}
+
 .avatar {
-border-radius: 30px 30px 30px 30px;
-width: 110px;
-height: 160px;
-position: relative;
-margin-left: auto;
-margin-right: auto;
-background-size: 115px;
-background-image: url("../images/avatar5.jpg");
+  border-radius: 30px 30px 30px 30px;
+  width: 110px;
+  height: 160px;
+  position: relative;
+  margin: auto;
+  background-size: 115px;
+  background-image: url("../images/avatar5.jpg");
+  box-shadow: -3px -3px 9px rgba(255,255,255,0.45), 3px 3px 9px rgba(94,104,121,0.3);
 }
 
 .avatar:hover{
   background-image: url("../images/avatar5Color.jpg");
 }
-/**  --- Bienvenida -- **/
-[hidden],
-template {
-  display: none;
-}
-.nombre {
-  font-family: 'Libre Baskerville', serif;
-  font-style: normal;
-  font-size: 35px;
-}
 
-.nombre2{
-  margin-top: 3%;
-  font-style: bold;
-  font-weight: bolder;
-  font-size: 21px;
+.enlaces_seccion{
   margin: auto;
-  padding: auto;
-  font-family: 'Sacramento', cursive;
-  letter-spacing: 1px;
-}
-
-.bienvenida {
-  font-family: 'Libre Baskerville', serif;
-  font-style: normal;
-  font-size: 16px;
-}
-
-/* Forma de los botones
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.button,
-button {
-  float: center;
-  margin: 5px;
-  display: inline-block;
-  text-decoration: none;
-  height: 65px;
-  width: 65px;
+  width: 500px;
+  padding-top: 2.5%;
   text-align: center;
-  vertical-align: middle;
+  display: inline-grid;
+}
+
+
+.boton {
+  margin: auto;
+  width: 350px;
+  color: white;
   font-size: 18px;
   font-weight: 70;
   line-height: 48px;
   letter-spacing: 0.1px;
+  text-decoration: none;
   white-space: wrap;
   border-radius: 39px 39px 39px 39px;
-  cursor: pointer;
- }
+  box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+}
 
-/* Estilo Botones (Color fondo)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.icon {
-  padding: 15px 13px 13px 13px;
+.boton:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  color:black;
+}
+
+.enlaces_seccion a{
+  margin-top: 5%;
+}
+
+.boton img{
+  width: 21px;
+  height: 21px;
   vertical-align: middle;
-  width: 31px;
-  height: 31px;
-  fill: #0085FF;
+  padding: 2% 5% 4% 0%;
 }
 
-.button.button-default {
-  color: #FFFFFF;
-  background-color: #607199; }
-.button.button-default:hover,
-.button.button-default:focus {
-  filter: brightness(90%) }
+#ig{background-color: #9fbcd2;}
+#ig:hover{background-color: #bcd1e1;}
 
+#unsplash{background-color: #839789;}
+#unsplash:hover{background-color: #9cb1a2;}
 
-  /* Instagram */
-  #button-instagram {
-    color: #FFFFFF;
-    background-color: #061405 }
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
+#px{background-color: #383a3c;}
+#px:hover{background-color: #505254;color: white;}
 
-
-  /* Unsplash */
-  #button-unplash {
-    color: #FFFFFF;
-    background-color: #5a5b33}
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-  /* 500px */
-  #button-500px {
-    color: #FFFFFF;
-    background-color: #768a8b}
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-  /* Galeria */
-  #button-galeria {
-    color: #FFFFFF;
-    background-color: #abc9d3 }
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-  /* Correo */
-  #button-mail {
-    color: #FFFFFF;
-    background-color: #6a716f }
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-
-  /* link */
-  #button-link {
-    color: #FFFFFF;
-    background-color: #535154 }
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-  /* Correo */
-  #button-email {
-    color: #FFFFFF;
-    background-color: #eab75c }
-  .button.unplash:hover,
-  .button.button:focus {
-  filter: brightness(40%) }
-
-/* Email */
-.button.button {
-  color: #FFFFFF;
-  background-color: #a45350 }
-.button.button:hover,
-.button.button:focus {
-  filter: brightness(40%)
-}
-
-/** --  Estilo del texto al pasar el cursor -- **/
-
-
-[data-title]:hover:after {
-    opacity: 1;
-    transition: all 0.1s ease 0.5s;
-    visibility: visible;
-}
-[data-title]:after {
-    content: attr(data-title);
-    background-color: #333;
-    color: #fff;
-    font-size: 14px;
-    font-family: Raleway;
-    position: absolute;
-    padding: 3px 20px;
-    bottom: -1.6em;
-    left: 100%;
-    white-space: nowrap;
-    box-shadow: 1px 1px 3px #222222;
-    opacity: 0;
-    border: 1px solid #111111;
-    z-index: 99999;
-    visibility: hidden;
-    border-radius: 6px;
-
-}
-[data-title] {
-    position: relative;
-}
-
-
-/** --  Final -- **/
-#div_galeria{
-background-color: #515c4e;
-padding-top: 1%;
-margin-top: 4%;
-
-}
-#galeria_titulo{
-  margin: 20px;
-  padding: 5px;
-  text-align: center;
-  font-size: 35px;
-  font-family: 'Libre Baskerville', serif;
-  font-style: normal;
-  color: white;
-  letter-spacing: 0.40em;
-}
-#galeria_texto{
-  padding: 2px;
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Libre Baskerville', serif;
-  font-style: normal;
-  color: white;
-  padding-bottom: 30px;
-}
-#galeria_imagenes{
-  height: 300px;
-  width: 300px;
-}
-.imagenes{
-  float: left;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 5px;
-  white-space: wrap;
-  cursor: pointer;
-}
+#galeria{background-color: #b8a898;}
+#galeria:hover{background-color: #cdbfb0;}

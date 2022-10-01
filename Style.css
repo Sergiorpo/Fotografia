@@ -1,0 +1,70 @@
+html{
+
+}
+
+body{
+  background-color:#e7ecef;
+  margin: auto;
+  width: 920px;
+  max-width: 100%;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+h2{
+
+}
+
+p{
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.titulo{
+  margin-top: 5%;
+}
+
+.titulo h1 p {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 30px 30px 30px 30px;
+  width: 110px;
+  height: 160px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 115px;
+  background-image: url("../images/avatar5.jpg");
+}
+
+.avatar:hover{
+  background-image: url("../images/avatar5Color.jpg");
+}
+
+.enlaces_seccion{
+
+}
+
+.enlaces_seccion a {
+  width: 200px;
+  height: 50px;
+  float: center;
+  margin: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 70;
+  line-height: 48px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 39px 39px 39px 39px;
+
+}
+
+#ig{
+  background-color: #9fbcd2;
+}
