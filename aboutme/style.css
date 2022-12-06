@@ -35,7 +35,7 @@ a{
   background-image: url("../images/avatar6.jpg");
   background-image: no-repeat;
   background-image: center;
-
+  box-shadow: -3px -3px 9px rgba(255,255,255,0.45), 3px 3px 9px rgba(94,104,121,0.3);
 }
 
 
