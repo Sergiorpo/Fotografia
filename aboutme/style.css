@@ -1,0 +1,49 @@
+html{
+
+}
+
+body{
+  background-color:#e4eaf1;
+  margin: auto;
+  width: 920px;
+  max-width: 100%;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.titulo{
+  margin-top: 5%;
+}
+
+.titulo h1 p {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 80px 80px 80px 80px;
+  width: 150px;
+  height: 150px;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 150px;
+  background-image: url("../images/avatar6.jpg");
+  background-image: no-repeat;
+  background-image: center;
+
+}
+
+
+.enlaces_seccion{
+  margin: auto;
+  width: 31.25rem;
+  max-width: 31.25rem;
+  padding-top: 2.5%;
+  text-align: center;
+  display: inline-grid;
+}
