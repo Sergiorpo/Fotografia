@@ -119,3 +119,18 @@ a{
 
 #galeria{background-color: #b8a898;}
 #galeria:hover{background-color: #cdbfb0;}
+
+#aboutme{background-color: #9f3b0f;}
+#aboutme:hover{background-color: #cd4b13;}
+
+
+
+
+@media only screen and (min-width : 1224px) {
+  body{
+    padding-top: 0%;
+  }
+  .titulo{
+    padding-top: 1.5%;
+  }
+ }
