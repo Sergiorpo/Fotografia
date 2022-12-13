@@ -133,4 +133,20 @@ a{
   .titulo{
     padding-top: 1.5%;
   }
+  #text03{
+    font-size: 1.2rem;
+  }
+  .boton {
+    width: 21.875rem;
+    min-width: 24rem;
+    max-width: 27rem;
+    font-size: 1.4rem;
+  }
+  .boton img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    padding: 2% 5% 4% 0%;
+  }
+
  }
