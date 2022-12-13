@@ -59,6 +59,7 @@ a{
   background-size: 115px;
   background-image: url("../images/avatar5.jpg");
   box-shadow: -3px -3px 9px rgba(255,255,255,0.45), 3px 3px 9px rgba(94,104,121,0.3);
+
 }
 
 .avatar:hover{
