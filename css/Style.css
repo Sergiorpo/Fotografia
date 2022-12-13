@@ -7,7 +7,7 @@ body{
   text-align: center;
   margin: auto;
   box-sizing: border-box;
-  padding-top: 1%;
+  padding-top: 0.1%;
 }
 
 a{
@@ -41,7 +41,7 @@ a{
 
 .titulo{
   margin: auto;
-  padding-top: 3%;
+  padding-top: 2%;
   width: 31.25rem;
   max-width: 31.25rem;
 }
@@ -124,10 +124,7 @@ a{
 #aboutme{background-color: #9f3b0f;}
 #aboutme:hover{background-color: #cd4b13;}
 
-
-
-
-@media only screen and (min-width : 1224px) {
+@media only screen and (max-width : 800px) {
   body{
     padding-top: 0%;
   }
