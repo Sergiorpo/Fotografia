@@ -89,7 +89,7 @@ a{
   letter-spacing: 0.1px;
   text-decoration: none;
   white-space: wrap;
-  border-radius: 39px 39px 39px 39px;
+  border-radius: 20px 20px 20px 20px;
   box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
@@ -100,13 +100,17 @@ a{
 
 .enlaces_seccion a{
   margin-top: 5%;
+  text-align: left;
+  padding-left: 0%;
 }
 
 .boton img{
   width: 21px;
   height: 21px;
+  text-align: left;
   vertical-align: middle;
-  padding: 2% 5% 4% 0%;
+  padding-right: 30%;
+  padding-left: 4%;
 }
 
 #ig{background-color: #9fbcd2;}
@@ -129,7 +133,7 @@ a{
     padding-top: 0%;
   }
   .titulo{
-    padding-top: 1.5%;
+    padding-top: 1.4%;
   }
   #text03{
     font-size: 1.2rem;
@@ -144,7 +148,8 @@ a{
     width: 24px;
     height: 24px;
     vertical-align: middle;
-    padding: 2% 5% 4% 0%;
+    
   }
+
 
  }

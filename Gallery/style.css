@@ -1,0 +1,40 @@
+
+body{
+  margin: auto;
+  background-color: #f0efeb;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.titulo{
+  margin: auto;
+  padding-top: 3.85rem;
+  padding-bottom: 1rem;
+}
+
+.titulo h1{
+  font-size: 3.25rem;
+  font-family: 'Libre Baskerville', serif;
+  color: black;
+  text-align: center;
+}
+
+.enlaces{
+  margin: auto;
+  display: inline-grid;
+  justiry-content: center;
+  align-items: center;
+}
+
+.enlaces a{
+  padding-top: 1.25rem;
+  text-align: left;
+  font-size: 3rem;
+  text-decoration: none;
+  font-family: 'Libre Baskerville', serif;
+  font-style:normal;
+  color: black;
+}
