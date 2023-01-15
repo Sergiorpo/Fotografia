@@ -136,19 +136,20 @@ a{
     padding-top: 1.4%;
   }
   #text03{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .boton {
-    width: 21.875rem;
-    min-width: 24rem;
+    width: 21.90rem;
+    min-width: 24.6rem;
     max-width: 27rem;
     font-size: 1.4rem;
+    height:3.2rem;
   }
   .boton img{
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
-    
+
   }
 
 
